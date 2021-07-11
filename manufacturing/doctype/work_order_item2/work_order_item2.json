@@ -1,0 +1,94 @@
+{
+ "creation": "2021-03-20 00:53:55.421104",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "operation",
+  "item_code",
+  "column_break_3",
+  "item_name",
+  "description",
+  "qty_section",
+  "available_qty_at_source_warehouse",
+  "required_qty",
+  "required_qty2"
+ ],
+ "fields": [
+  {
+   "fieldname": "operation",
+   "fieldtype": "Link",
+   "label": "Operation",
+   "options": "Operation"
+  },
+  {
+   "columns": 1,
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text",
+   "label": "Description",
+   "read_only": 1
+  },
+  {
+   "fieldname": "qty_section",
+   "fieldtype": "Section Break",
+   "label": "Qty"
+  },
+  {
+   "columns": 1,
+   "fieldname": "available_qty_at_source_warehouse",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "\u0e04\u0e07\u0e40\u0e2b\u0e25\u0e37\u0e2d",
+   "precision": "3",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "required_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "\u0e15\u0e32\u0e21\u0e1a\u0e2d\u0e21",
+   "precision": "3",
+   "read_only": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "required_qty2",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "\u0e23\u0e27\u0e21\u0e40\u0e28\u0e29",
+   "precision": "3",
+   "read_only": 1
+  }
+ ],
+ "istable": 1,
+ "modified": "2021-03-20 12:25:21.656275",
+ "modified_by": "Administrator",
+ "module": "Manufacturing",
+ "name": "Work Order Item2",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
