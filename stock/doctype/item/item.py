@@ -46,7 +46,7 @@ class Item(WebsiteGenerator):
 
 	def onload(self):
 		super(Item, self).onload()
-		#rangsit
+		#rangsit22
 		self.set_onload('stock_exists', self.stock_ledger_created())
 		self.set_asset_naming_series()
 
